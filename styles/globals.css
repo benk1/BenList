@@ -29,6 +29,7 @@ nav a {
 }
 nav .logo {
 	margin-right: auto;
+	display: flex;
 }
 footer {
 	display: block;
@@ -44,4 +45,7 @@ footer {
 .not-found a {
 	color: #4979ff;
 	text-decoration: underline;
+}
+.border:hover {
+	border-bottom: 3px solid orange;
 }
